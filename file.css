@@ -23,7 +23,7 @@ ul li a:after {
   content: "";
   width: 0px;
   height: 5px;
-  background: rgb(182, 207, 71);
+  background: #97c02f;
   position: absolute;
   top: 100%;
   left: 0;
@@ -51,7 +51,8 @@ li:hover {
 }
 
 .little_box {
-  background-color: rgb(182, 207, 71);
+  position: relative;
+  background-color: #97c02f;
   margin: 15px;
   height: 150px;
   width: 150px;
@@ -59,7 +60,6 @@ li:hover {
   font-family: "Roboto", sans-serif;
   color: #3e4408;
   font-size: 25px;
-  
 }
 
 .container {
@@ -68,11 +68,6 @@ li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-
-
 }
 
 .container2 {
@@ -93,12 +88,9 @@ li:hover {
   font-family: "Roboto", sans-serif;
   color: #3e4408;
   font-size: 25px;
-  
- 
 }
 
 .little_box3 {
-
   margin: 30px;
   height: 200px;
   width: 350px;
@@ -109,8 +101,83 @@ li:hover {
 }
 
 .round {
-  border-radius: 100px; 
- 
-  box-shadow: 0 0 7px #666; 
+  border-radius: 100px;
 
+  box-shadow: 0 0 7px #666;
 }
+
+.note {
+  position: relative;
+  width: 15%;
+  padding: ;
+  margin:;
+  color: whitesmoke;
+  background: #97c02f;
+}
+
+.note:before {
+     content:"";
+     position:absolute;
+     top:0;
+     right:0;
+     border-width:0 16px 16px 0;
+     border-style:solid;
+     border-color:#658E15 whitesmoke;
+  }
+
+  .note:before {
+       ...
+       display:block;
+       width:0;
+    }
+
+   
+    .note2 {
+      position: relative;
+      width: 15%;
+      padding: ;
+      margin:;
+      color: white;
+      background: #97c02f;
+    }
+    
+    .note2:before {
+         content:"";
+         position:absolute;
+         top:0;
+         right:0;
+         border-width:0 16px 16px 0;
+         border-style:solid;
+         border-color:#658E15 white;
+      }
+    
+      .note2:before {
+           ...
+           display:block;
+           width:0;
+        }
+
+       a:hover {
+         color: #658E15;
+         font-weight: 600;
+       }
+
+       .main {
+        width: 290px;
+        height: 220px;
+        margin-top: 5%;
+        margin-left: 70%;
+        background: whitesmoke;
+        border: 1px solid white;
+        border-radius: 8%;
+   
+    }
+
+  .text {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #849112;
+    text-align: center;
+  }
+
+        
